@@ -1,6 +1,6 @@
 # getin-export-csv
 
-Skrypt służy do eksportowania transakcji do plików CSV. Aktualnie (03.08.2020) bank umożliwia eksport tylko do plików PDF. 
+Skrypt służy do eksportowania transakcji w Getin Banku do plików CSV. Aktualnie (03.08.2020) bank umożliwia eksport tylko do plików PDF. 
 
 
 # Zasada działania
