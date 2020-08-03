@@ -31,7 +31,10 @@ transactionItems.forEach(function(transaction) {
 
 
 console.log(csv);
-saveToCsv(csv)
+var filterDateFrom = $x(`//input[@name='dateFrom_submit']`)[0].value.split('.').join('_');
+var filterDateTo = $x(`//input[@name='dateTo_submit']`)[0].value.split('.').join('_');
+var filename = "transactions_from_".concat(filterDateFrom, "_to_", filterDateTo, ".csv")
+saveToCsv(csv, filename);
 
 function saveToCsv(data,filename){
 	if(!data) {
